@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="img/vidbground.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+    <h1>Enroll Now!</h1>
+
+    <nav class="navbar">
+        <ul class="nav_list">
+            <li class="nav_item">
+                <a class="nav_link" href="/SchoolEnrollies.html">Home</a>
+            </li>
+            <li class="nav_item">
+                <a class="nav_link" href="/About.html">Admin</a>
+            </li>
+            <li class="nav_item">
+                <a class="nav_link" href="/ContactUs.html">Contact Us</a></li>
+            <li class="nav_item">
+                <a class="nav_link" href="/Enroll.html">Enroll</a></li>
+        </ul>
+    </nav>
+    <h2></h2>
+    <p>"Complete all the fields with your information, Please ensure that all information is accurate to avoid any discrepancies in your data record".
+    </p>
+    <br>
+    <form>
+        <div>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Enter">
+
+            
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter">
+        
+            <label for="mname">Middle Name:</label>
+            <input type="text" id="mname" name="mname" placeholder="Enter">
+        </div>
+
+        <br>
+
+        <div>
+
+            <label for="suffix">Suffix:</label>
+            <label for="Jr">Jr</label>
+            <input type="radio" name="suffix" value="Jr">
+
+            <label for="II">II</label>
+            <input type="radio" name="suffix" value="II">
+
+            <label for="III">III</label>
+            <input type="radio" name="suffix" value="III">
+
+            <label for="IV">IV</label>
+            <input type="radio" name="suffix" value="IV">
+
+            <label for="bdate">Birthdate:</label>
+            <input type="date" id="bdate" name="bdate">
+
+            <label for="gender">Gender:</label>
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" value="Male">
+
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" value="Female">
+
+
+        </div>
+
+        <br>
+
+        <div>
+            <label for="contact">Contact:</label>
+            <input type="text" id="contact" name="contact" placeholder="Enter">
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter">
+
+            <label for="course">Course:</label>
+            <select id="course" name="course">
+                <option value="Select">-Select-</option>
+                <option value="BSIT">BSIT</option>
+                <option value="BSCS">BSCS</option>
+                <option value="BSIS">BSIS</option>
+                <option value="BSCpE">BSCpE</option>
+
+
+            </select>
+
+            <label for="yrlevel">Year Level:</label>
+            <select id="yrlevel" name="yrlevel">
+                <option value="Select">-Select-</option>
+                <option value="1st_Yr">1st_Yr</option>
+                <option value="2nd_Yr">2nd_Yr</option>
+                <option value="3rd_Yr">3rd_Yr</option>
+                <option value="4th_Yr">4th_Yr</option>
+
+            </select>
+        </div>
+    
+         <br>
+    
+        <div>
+            <input type="submit">
+            <input type="reset">
+        </div>
+    
+       </form>
+       <div class="container">
+        <img src="img/gardner.png" alt="gardner" class="corner-image" width="200"> </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
